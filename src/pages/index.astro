@@ -17,4 +17,9 @@ h1 span {
 <BaseLayout title={title}>
 <h1>Hi from <span>Astro</span></h1>
 <a href="/contact">Contact us!</a>
+<div>
+<img src='/images/51.jpg' width='300px'/>
+<img src={Astro.resolve('../images/51.jpg')} width="300px"/>
+</div>
+
 </BaseLayout>

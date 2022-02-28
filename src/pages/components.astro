@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import SpecialButtonReact from '../components/SpecialButtons/SpecialButtonReact.jsx'
+import SpecialButtonSvelte from '../components/SpecialButtons/SpecialButtonSvelte.svelte'
+const title='Components Page'
+---
+
+
+<BaseLayout title={title}>
+<h1>{title}</h1>
+<SpecialButtonReact client:load>Click Me!</SpecialButtonReact>
+<SpecialButtonSvelte client:load>Click Me!</SpecialButtonSvelte>
+</BaseLayout>
