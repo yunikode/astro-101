@@ -1,20 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
-const title='Testing Title'
+const title='Contact Page'
 ---
 <style scoped>
 
 h1 {
     color: blue
-
-    
 }
 h1 span {
-        color: red
-    }
+    color: red
+}
 </style>
 
 <BaseLayout title={title}>
-<h1>Hi from <span>Astro</span></h1>
-<a href="/contact">Contact us!</a>
+<h1>{title}</h1>
+<p>Hello from the contact page!</p>
 </BaseLayout>
