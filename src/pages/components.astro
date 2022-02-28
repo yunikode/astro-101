@@ -10,4 +10,6 @@ const title='Components Page'
 <h1>{title}</h1>
 <SpecialButtonReact client:load>Click Me!</SpecialButtonReact>
 <SpecialButtonSvelte client:load>Click Me!</SpecialButtonSvelte>
+<special-button>Click me!</special-button>
+<script type='module' src={Astro.resolve('../components/SpecialButtons/special-buttons.ts')}></script>
 </BaseLayout>

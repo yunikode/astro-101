@@ -12,5 +12,8 @@
     "@astrojs/renderer-react": "^0.5.0",
     "@astrojs/renderer-svelte": "^0.4.0",
     "astro": "^0.23.2"
+  },
+  "dependencies": {
+    "lit": "^2.2.0"
   }
 }
